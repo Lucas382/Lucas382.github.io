@@ -178,7 +178,11 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
+<<<<<<< HEAD
   version_hash: "at9t2y"
+=======
+  version_hash: "obx20u"
+>>>>>>> parent of 8d6270b (....)
 };
 function get_hooks() {
   return {};
