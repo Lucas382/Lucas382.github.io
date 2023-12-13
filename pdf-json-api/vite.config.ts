@@ -3,6 +3,11 @@ import { defineConfig } from 'vite';
 import purgeCss from 'vite-plugin-tailwind-purgecss'; // Importe corretamente o plugin
 
 export default defineConfig({
+	build: {
+		rollupOptions: {
+			input: './src/index.ts', // Aponte para o seu arquivo index.ts
+		},
+	},
 	optimizeDeps: {
 		include: ['svelte', 'svelte-routing', 'skeletonlabs'],
 	},
