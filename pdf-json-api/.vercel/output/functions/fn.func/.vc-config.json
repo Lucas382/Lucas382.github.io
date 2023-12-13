@@ -1,6 +1,0 @@
-{
-	"runtime": "nodejs18.x",
-	"handler": "..\\..\\..\\..\\VsCodeProjects\\svelte-skeleton-pdf-api\\pdf-json-api\\.svelte-kit\\vercel-tmp\\index.js",
-	"launcherType": "Nodejs",
-	"experimentalResponseStreaming": true
-}
